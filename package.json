@@ -1,10 +1,10 @@
 {
   "name": "generator-totaljs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "TotalJS : JQuery, FontAwesome, Bootstrap, Gulp and more !",
   "homepage": "https://github.com/Ealenn/generator-totaljs",
   "author": {
-    "name": "Marchandise Rudy",
+    "name": "Marchandise Rudy (Ealen)",
     "email": "r.marchandise@sfr.fr",
     "url": "http://ealen.fr"
   },
@@ -13,8 +13,12 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "https://github.com/Ealenn/generator-totaljs;",
-    "totaljs"
+    "nodejs",
+    "totaljs",
+    "expressjs",
+    "jQuery",
+    "Bootstrap",
+    "FontAwesome"
   ],
   "dependencies": {
     "yeoman-generator": "^0.23.0",
@@ -41,7 +45,7 @@
       "mocha": true
     }
   },
-  "repository": "Ealen_/generator-totaljs",
+  "repository": "Ealenn/generator-totaljs",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

@@ -9,10 +9,4 @@ describe('generator-totaljs:app', function () {
       .withPrompts({someAnswer: true})
       .toPromise();
   });
-
-  it('creates files', function () {
-    assert.file([
-      'dummyfile.txt'
-    ]);
-  });
 });
