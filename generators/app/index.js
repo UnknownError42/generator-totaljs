@@ -29,7 +29,7 @@ module.exports = yeoman.Base.extend({
 
   writing: function () {
     /* Copy all */
-    var array_struct = ['controllers','definitions','node_modules','public', 'views']
+    var array_struct = ['controllers','definitions','public', 'views']
     for(var i in array_struct){
       this.fs.copy(this.templatePath(array_struct[i]+'/'),this.destinationPath(array_struct[i]+'/'));
     }
